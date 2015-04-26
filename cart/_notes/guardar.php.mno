@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsClientes" value="name:idmax;datatype:int" />
+	<infoitem key="UD_RsDestino2" value="name:contacto_id;datatype:int,name:correo;datatype:string,name:fecha;datatype:date,name:activar;datatype:int" />
+	<infoitem key="UD_RsVendidos" value="name:idProducto;datatype:int,name:nombreProducto;datatype:string,name:Sum(productovendido.cantidad);datatype:real" />
+	<infoitem key="UD_RsPrimer" value="name:idProducto;datatype:int,name:nombreProducto;datatype:string,name:cantidad;datatype:int" />
+	<infoitem key="UD_RsFinal" value="name:nombreProducto;datatype:string,name:producto.cantidad - Sum(productovendido.cantidad);datatype:real" />
+</info>
